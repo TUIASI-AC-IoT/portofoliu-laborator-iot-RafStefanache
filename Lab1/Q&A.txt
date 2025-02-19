@@ -1,0 +1,12 @@
+Task 1 : 
+Q: What is the purpose of the gpio config function?
+A: gpio_config() is an all-in-one API that can be used to configure the I/O mode, internal pull-up/pull-down resistors, etc. for pins.
+
+Q: What other modes can a GPIO pin be configured in?
+A: Each pin can be used as a general-purpose I/O, or be connected to an internal peripheral signal.
+
+Q: Explain the vTaskDelay function call
+A: vTaskDelay() specifies a time at which the task wishes to unblock relative to the time at which vTaskDelay() is called.
+
+Q: Why is the main function called app main
+A: 
